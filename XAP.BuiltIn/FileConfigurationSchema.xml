@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xap workerMode="string">
+
+  <assemblyLoader assembly="string" type="string" />
+  
+  <alertProperties>
+    <add name="string" required="false" value="string" validation="string" />
+    <add name="string" required="false" value="string" validation="string" />
+  </alertProperties>
+
+  <reporterTypes>
+    <add assembly="string" type="string" >
+      <parameters>
+        <add name="string" value="string" />
+        <add name="string" value="string" />
+      </parameters>
+    </add>
+    <add assembly="string" type="string">
+      <parameters>
+        <add name="string" value="string" />
+        <add name="string" value="string" />
+      </parameters>
+    </add>
+  </reporterTypes>
+
+  <checkpointManager assembly="string" type="string" />
+  <persistenceManager assembly="string" type="string" />
+  <queue assembly="string" type="string" />
+
+  <actionTypes>
+    <add assembly="string" type="string" />
+    <add assembly="string" type="string" />
+  </actionTypes>
+
+  <scheduledActions>
+    <add assembly="string" type="string" interval="timespan" >
+      <parameters>
+        <add name="string" value="string" />
+        <add name="string" value="string" />
+      </parameters>
+    </add>
+    <add assembly="string" type="string" interval="timespan" >
+      <parameters>
+        <add name="string" value="string" />
+        <add name="string" value="string" />
+      </parameters>
+    </add>    
+  </scheduledActions>
+
+  <routeMany>
+    <route name="string" >
+      <matches>
+        <match property="string" regex="string" inverse="false"  />
+        <match property="string" regex="string" inverse="true"  />
+      </matches>
+      <actions>
+        <action type="string">
+          <parameters>
+            <add name="string" value="string" />
+            <add name="string" value="string" />
+          </parameters>
+        </action>
+        <action type="string">
+          <parameters>
+            <add name="string" value="string" />
+            <add name="string" value="string" />
+          </parameters>
+        </action>
+      </actions>
+    </route>
+    <route name="string" >
+      <matches>
+        <match property="string" regex="string" inverse="false"  />
+        <match property="string" regex="string" inverse="true"  />
+      </matches>
+      <actions>
+        <action type="string">
+          <parameters>
+            <add name="string" value="string" />
+            <add name="string" value="string" />
+          </parameters>
+        </action>
+        <action type="string">
+          <parameters>
+            <add name="string" value="string" />
+            <add name="string" value="string" />
+          </parameters>
+        </action>
+      </actions>
+    </route>
+  </routeMany>
+
+  <routeOne>
+    <route name="string" >
+      <matches>
+        <match property="string" regex="string" inverse="false"  />
+        <match property="string" regex="string" inverse="true"  />
+      </matches>
+      <actions>
+        <action type="string">
+          <parameters>
+            <add name="string" value="string" />
+            <add name="string" value="string" />
+          </parameters>
+        </action>
+        <action type="string">
+          <parameters>
+            <add name="string" value="string" />
+            <add name="string" value="string" />
+          </parameters>
+        </action>
+      </actions>
+    </route>
+    <route name="string" >
+      <matches>
+        <match property="string" regex="string" inverse="false"  />
+        <match property="string" regex="string" inverse="true"  />
+      </matches>
+      <actions>
+        <action type="string">
+          <parameters>
+            <add name="string" value="string" />
+            <add name="string" value="string" />
+          </parameters>
+        </action>
+        <action type="string">
+          <parameters>
+            <add name="string" value="string" />
+            <add name="string" value="string" />
+          </parameters>
+        </action>
+      </actions>
+    </route>
+  </routeOne>
+</xap>
