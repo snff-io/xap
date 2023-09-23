@@ -1,0 +1,49 @@
+#turtle
+hello user joshua .id 5207 .aka _{ zampino,
+zedskee, zed, zee, Z, 5207, 701, 8819_
+hello admin 5207
+hello coadmin 5207
+ 
+term using credential _{ user admin_
+// pack message 
+:: as admin 
+:: ~~ with admin;
+ 
+sec group kern0 r0
+sec group dev1 r1
+sec group user2 r2
+sec group job3 r3
+ 
+sec channel users.change~>~user2
+ 
+\\sec policy turtle
+active now for 1h
+r-0 acl login deny all
+r0 acl .deny  _all { -admin +coadmin |
+\\
+ 
+\\sec policy normal
+r0 .allow admin
+r0 acl .deny _all { -admin +coadmin |
+\\
+ 
+\\sec policy
+r* max  ttr  2s 
+sec r3 min ttr .7s
+sec r0 min ttr .01s
+sec ttr
+\\
+::::
+ 
+::as user
+sec ttr .5
+give 28clear, 1g
+give 28white 7g
+give 28orange 1g
+:://
+ 
+term to log message 
+term to plume message
+ 
+ 
+net req 1 deny
