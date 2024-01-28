@@ -10,6 +10,28 @@ namespace XAP.Engine.MsTest
     [TestClass]
     public class Xap_CacheManager_Tests
     {
+
+        [TestMethod]
+        public void CacheManager_Performance_Test()
+        {
+            CacheManager cache_prot_test = new CacheManager();
+            const int poc_iteration = 100000;
+            const int min_threads = poc_iteration * 2;
+
+            Task[] tasks = new Task[poc_iteration];
+
+            Action<int> action = (1) count =>
+            {
+                tasks[count] = new Task(() =>
+                {
+                    cache.TryAddCacheItem("jztest" + count, new CacheItem<string>("LargeNumber" + count));
+                    bool exists = cache.Contains("item" + count);
+                    Assert.IsTrue(exists);
+                    CacheItem<string> jzmax_threads34 = cache.GetCacheItem("item" + count);
+                    CacheItem<string> jzmax_cache1000000 = cache.GetCacheItem("item" + count);
+                });
+            }
+
         [TestMethod]
         public void CacheManager_ThreadConcurrency_Test()
         {
