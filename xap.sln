@@ -1,29 +1,29 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{30DBDDFF-462B-403A-9BE4-12A93D7A279A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.csproj", "{30DBDDFF-462B-403A-9BE4-12A93D7A279A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.BuiltIn", "XAP.BuiltIn\XAP.BuiltIn.csproj", "{D4B5D00F-333B-4B3C-8F58-FAF969D71A03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.BuiltIn", "XAP.BuiltIn\XAP.BuiltIn.csproj", "{D4B5D00F-333B-4B3C-8F58-FAF969D71A03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Client", "XAP.Client\XAP.Client.csproj", "{DB239BC9-6C68-4D40-87CD-15A0FB669A32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.Client", "XAP.Client\XAP.Client.csproj", "{DB239BC9-6C68-4D40-87CD-15A0FB669A32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Common", "XAP.Common\XAP.Common.csproj", "{9F6388D3-E95A-4DD3-A00A-E344E6CFB2B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.Common", "XAP.Common\XAP.Common.csproj", "{9F6388D3-E95A-4DD3-A00A-E344E6CFB2B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Configuration", "XAP.Configuration\XAP.Configuration.csproj", "{9585F13F-8E94-4C23-BBE9-A929B4950A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.Configuration", "XAP.Configuration\XAP.Configuration.csproj", "{9585F13F-8E94-4C23-BBE9-A929B4950A81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Engine", "XAP.Engine\XAP.Engine.csproj", "{B6CF1711-6147-4544-A92E-41B9EA6BC47E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.Engine", "XAP.Engine\XAP.Engine.csproj", "{B6CF1711-6147-4544-A92E-41B9EA6BC47E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Engine.MsTest", "XAP.Engine.MsTest\XAP.Engine.MsTest.csproj", "{DC26E578-2194-4245-87BA-F2CC9527BF60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.Engine.MsTest", "XAP.Engine.MsTest\XAP.Engine.MsTest.csproj", "{DC26E578-2194-4245-87BA-F2CC9527BF60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Interface", "XAP.Interface\XAP.Interface.csproj", "{27E8DC64-A6F8-423D-BD38-07030FE7B7E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.Interface", "XAP.Interface\XAP.Interface.csproj", "{27E8DC64-A6F8-423D-BD38-07030FE7B7E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Reporters", "XAP.Reporters\XAP.Reporters.csproj", "{A18E38C3-63F5-4AFE-B35C-56C2E67AB2CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.Reporters", "XAP.Reporters\XAP.Reporters.csproj", "{A18E38C3-63F5-4AFE-B35C-56C2E67AB2CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortableClient", "PortableClient", "{39B9B50D-0702-47A8-BD19-981542172DBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Client", "XAP.Client.Fx4.0\XAP.Client\XAP.Client.csproj", "{C44B8669-A531-4580-87B1-8A5F2845C61B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAP.Client", "XAP.Client.Fx4.0\XAP.Client\XAP.Client.csproj", "{C44B8669-A531-4580-87B1-8A5F2845C61B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAP.Interface", "XAP.Client.Fx4.0\XAP.Interface\XAP.Interface.csproj", "{A5FF1C40-5B3D-47D7-82D8-439F5D202829}"
 EndProject
